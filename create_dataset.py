@@ -1,13 +1,16 @@
 import fiftyone as fo
 import fiftyone.zoo as foz
-
+import os
 # These will be multiplied with number of classes.
 N_DATAPOINTS_TRAIN = 10
 N_DATAPOINTS_TEST = 10
 N_DATAPOINTS_VAL = 10
 # these paths need to be changed
-export_path = "/yolov5_WASP_AS/dataset/"
-labels_path = "/yolov5_WASP_AS/dataset/labels"
+
+path_to_yolov5 = os.getcwd()
+print('path', path_to_yolov5)
+export_path = path_to_yolov5+"/dataset/"
+labels_path = path_to_yolov5+"/dataset/labels"
 
 dataset_type = fo.types.dataset_types.YOLOv5Dataset
 
