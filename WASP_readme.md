@@ -4,9 +4,9 @@ To generate the new dataset run the file
 create_dataset.py
 ``` 
 but before that in the create_dataset.py change the number of desired data points. 
-You need to be in the yolov5 directory when colling the script.
+You need to be in the yolov5 directory when calling the script.
 
-What will be created is a folder called dataset that will contain a file called
+What will be created is a folder called "dataset" that will contain a file called
 "dataset.yaml". This file needs to be slightly modified. We will need to add 
 one line 
 ```
