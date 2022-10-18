@@ -36,8 +36,8 @@ python3 train.py --data 'dataset/dataset.yaml' --img 640 --batch 16 --epochs 5 -
 ``` 
 
 ## <div>Data used: </div>
-
-
+[COCO Dataset](https://cocodataset.org/#home)
+[Open Images Dataset V6](https://storage.googleapis.com/openimages/web/index.html)
 
 
 
